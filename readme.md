@@ -3,7 +3,7 @@ Sinon.JS & Jasmine BDD Cheat Sheet
 
 Spy
 ---
-
+```
 *sinon*
   spy()
   spy(fn)
@@ -24,7 +24,7 @@ Spy
   calledWithExactly(*)
   alwaysCalledWithExactly(*)
   threw()
-  threw("TypeError")
+  threw('err')
   threw(obj)
   alwaysThrew()
   alwaysThrew('err')
@@ -48,12 +48,11 @@ Spy
   exception
   returnValue
 
-
 * argument list
-
+```
 Stub
 ----
-
+```
 *sinon*
   stub()
   stub(obj, "fn")
@@ -70,10 +69,10 @@ Stub
   callsArgWith(index, *)
   yields(*)
   yieldsTo(property, *)
-
+```
 Mock
 ----
-
+```
 *sinon*
   mock(obj)
   mock()
@@ -94,13 +93,13 @@ Mock
   withExactArgs(*)
   on(obj)
   verify()
-
+```
 Matchers
 ========
 
 Jasmine Matchers
 ----------------
-
+```
 *expect(x)*
   toEqual(y)
   toBe(y)
@@ -117,11 +116,10 @@ Jasmine Matchers
   toThrow(e)
 
 *expect(e).not* - negate criteria
-
-
+```
 Sinon.JS Matchers
 -----------------
-
+```
 *expect(spy)*
   toHaveBeen
     Called()
@@ -140,3 +138,4 @@ Sinon.JS Matchers
   toHaveAlwaysReturned(obj)
 
 *expect(spy).not* - negate criteria
+```

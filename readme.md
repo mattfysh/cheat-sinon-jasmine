@@ -117,7 +117,10 @@ Jasmine Matchers
   toBeFalsy()
   toContain()
   toBeLessThan(y)
-  toBeGreaterThan(y)
+  toBeGreaterThan(y)    
+  toHaveBeenCalled(y) 	
+  toHaveBeenCalledWith(y)
+
 
 *expect(fn)*
   toThrow(e)
